@@ -48,13 +48,13 @@
   padding: 0px;
 }
 
-li{
-  list-style:none;
+li {
+  list-style: none;
 }
 
 input,
-button{
-  outline:none;
+button {
+  outline: none;
 }
 
 .button {
@@ -98,7 +98,7 @@ button{
 }
 
 .section__input,
-.task__add{
+.task__add {
   color: #333;
 }
 
@@ -109,7 +109,7 @@ button{
   margin: 0 0 20px;
 }
 
-.section__input{
+.section__input {
   width: 318px;
 }
 
@@ -159,7 +159,7 @@ button{
 
 /* Completed */
 
-.completed-section .task__name{
+.completed-section .task__name {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,14 +167,14 @@ button{
 /* Edit Task */
 
 .task__add {
-  display:none;
+  display: none;
 }
 
-.edit-mode .task__add{
-  display:inline-block;
-  width:224px;
+.edit-mode .task__add {
+  display: inline-block;
+  width: 224px;
 }
 
 .edit-mode .task__name {
-  display:none;
+  display: none;
 }
